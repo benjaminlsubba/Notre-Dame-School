@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.7%;
+  height: 100%;
+  background: grey;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 325px;
+  width: 282px;
+  top: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  background: white;
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner {
+  width: 282px;
+  height: 107px;
+  background: #b9e700;
+}
+
+.stroke {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: white;
+  top: 30px;
+  left: 71px;
+  border-radius: 50%;
+}
+
+.avatar {
+  position: relative;
+  width: 127px;
+  height: 127px;
+  margin: auto;
+  background: rgb(81, 17, 41);
+  margin-top: -25%;
+  border-radius: 50%;
+  background: url(/girl.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.container h3 {
+  color: #0078e7;
+  text-align: center;
+  padding: 3rem 0 0.1rem;
+  font-size: 2rem;
+}
+
+.container h4 {
+  color: #717274;
+  text-align: center;
+  font-size: 1.9rem;
+}
